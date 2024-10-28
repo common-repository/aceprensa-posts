@@ -1,0 +1,45 @@
+h2.hndle {
+    cursor: unset!important;
+}
+
+#dashboard-widgets h2 a {
+    text-decoration: none!important;
+}
+
+.postbox .inside h2 {
+    font-size: 16px!important;
+    font-weight: bold!important;
+}
+
+.aceprensa-preview-title{
+    padding-left: 20px;
+}
+
+.aceprensa_posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.aceprensa_post-container {
+    width: calc(100% / 4);
+    padding: 20px;
+}
+
+.aceprensa_posts-image {
+    position: relative;
+    overflow: hidden;
+    height: 8vw;
+    max-height: 220px;
+}
+
+.aceprensa_posts-image img {
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    width: 100%;
+}
+.firmante{
+    display: inline-block;
+}

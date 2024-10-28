@@ -1,0 +1,25 @@
+.aceprensa_posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aceprensa_post-container {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+.aceprensa_posts-image {
+    position: relative;
+    overflow:hidden;
+    height: 15vw;
+    max-height: 220px;
+}
+.aceprensa_posts-image img {
+    position: absolute;
+    top:-100%;
+    bottom:-100%;
+    margin: auto;
+    width: max-content;
+}
+.firmante{
+    display: inline-block;
+}
